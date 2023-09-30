@@ -16,6 +16,16 @@ class _HomeState extends State<Home> {
       borderSide: BorderSide(),
     );
     return Scaffold(
+        appBar: AppBar(
+          title: const Text(
+            'Currency Converter',
+            style: TextStyle(
+                fontWeight: FontWeight.bold, color: Colors.black, fontSize: 28),
+          ),
+          centerTitle: true,
+          backgroundColor: Colors.transparent,
+          elevation: 0,
+        ),
         backgroundColor: Colors.amber,
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
